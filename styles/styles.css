@@ -1,0 +1,117 @@
+/*Donde va lo general de mi web*/
+:root{
+    --color-de-fondo:rgba(119, 129, 235, 0.82);
+    --fuente-principal: "San Francisco", Arial, Helvetica, sans-serif;
+    --spacing-md: 16px;
+    --color-primario: rgb(108, 243, 239);
+
+}
+
+/*Lo que hace box-sizing: border-box hace que tanto el padding y el border se cuenten, lo que devuelve el tamaño total del elemento*/
+*{
+    box-sizing: border-box;
+}
+
+
+/*Estilos de la página*/
+body{
+    background-color:var(--color-de-fondo);
+    font-family: var(--fuente-principal);
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+}
+
+
+header{
+    grid-area:header;
+}
+
+main{
+    grid-area:main;
+}
+
+footer{
+    grid-area:footer;
+}
+
+/*Estilos de titulos y subtitulos*/
+h1{
+     color: rgb(146 14 146 / 80%);
+}   
+
+h2{
+    color:var(--color-primario);
+}
+
+h3{
+    color: rgba(153, 242, 86, 0.792);
+}
+
+/*estilos de clases*/
+.externo{
+    color: blueviolet;
+}
+
+.intro{
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.recomendaciones{
+    border: 5px solid black;
+    padding: var(--spacing-md);
+}
+
+.proyecto{
+    border: 1px solid #ccc;
+    padding: var(--spacing-md);
+    flex: 1 1 250px;
+}
+
+.proyecto__titulo{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.proyecto__descripcion{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+/*estilos de id*/
+
+#proyectos h2{
+    flex-basis: 100%;
+}
+
+#proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+#contacto{
+    background-color:brown; 
+    font-family: monospace;
+    padding: var(--spacing-md);
+    color: var(--color-primario);
+}
+
+
+
+/*desktop*/
+@media(min-width: 768px){
+body {
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
