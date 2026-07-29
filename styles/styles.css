@@ -1,6 +1,6 @@
 /*Donde va lo general de mi web*/
 :root{
-    --color-de-fondo:rgba(119, 129, 235, 0.82);
+    --color-de-fondo:rgba(86, 99, 242, 0.82);
     --fuente-principal: "San Francisco", Arial, Helvetica, sans-serif;
     --spacing-md: 16px;
     --color-primario: rgb(108, 243, 239);
@@ -75,12 +75,12 @@ h3{
 }
 
 .proyecto__titulo{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
 }
 
 .proyecto__descripcion{
-    color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
     font-size: 1rem;
 }
 
