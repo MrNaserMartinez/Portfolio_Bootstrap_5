@@ -90,6 +90,12 @@ h3{
 }
 
 
+.list-group-item {
+    background-color: rgba(161, 205, 227, 0.8);
+    border: 1px solid #000000;
+    color: black;
+}
+
 /*estilos de id*/
 #contacto{
     background-color:brown; 
