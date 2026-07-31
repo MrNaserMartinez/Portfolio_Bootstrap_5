@@ -3,9 +3,9 @@
     --color-morado: #8f56f2;       
     --color-morado-oscuro: #561f9e; 
     --color-celeste: #34c9c2;      
-    --color-fondo: #f7f7fb;         
+    --color-fondo: #f0f0f3;         
     --color-texto: #2b2b38;
-    --fuente-principal: "Poppins", Arial, Helvetica, sans-serif;
+    --fuente-principal: "Inter", Arial, Helvetica, sans-serif;
     --spacing-sm: 8px;
     --spacing-md: 16px;
     --spacing-lg: 48px;
@@ -15,7 +15,7 @@
        text-bg-primary, etc. usen automáticamente nuestro morado
        (sin necesitar !important en ningún lado). */
     --bs-primary: var(--color-morado);
-    --bs-primary-rgb: 86, 99, 242;
+    --bs-primary-rgb: 143, 86, 242;
 }
 
 /*Lo que hace box-sizing: border-box hace que tanto el padding y el border se cuenten, lo que devuelve el tamaño total del elemento*/
@@ -26,7 +26,7 @@
 
 /*Estilos de la página*/
 body{
-    background-color:var(--color-de-fondo);
+    background-color:var(--color-fondo);
     color :var(--color-texto);
     font-family: var(--fuente-principal);
     display: grid;
