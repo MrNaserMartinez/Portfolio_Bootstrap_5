@@ -76,6 +76,11 @@ h3{
     font-weight: 600;
 }
 
+img{
+    max-width:100%;
+    height:auto;
+}
+
 
 /*estilos de clases*/
 
