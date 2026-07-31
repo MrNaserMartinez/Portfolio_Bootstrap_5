@@ -79,10 +79,6 @@ h3{
 
 /*estilos de clases*/
 
-.frase{
-    font-style: italic;
-    color: #5a5a6b;
-}
 
 .navbar-brand,
 .navbar-nav .nav-link {
@@ -160,6 +156,16 @@ h3{
     color: var(--color-celeste);
 }
 
+#portfolio{
+    background-color:rgba(161, 205, 227, 0.8);
+    padding: var(--spacing-md);
+    color: var(--color-texto);
+}
+
+#frase{
+    font-style: italic;
+    color: #5a5a6b;
+}
 
 
 /*desktop*/
